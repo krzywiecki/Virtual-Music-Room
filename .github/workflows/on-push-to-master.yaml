@@ -20,7 +20,7 @@ jobs:
               uses: burnett01/rsync-deployments@4.0
               with:
                 switches: -avzr --delete
-                path: client/
+                path: /
                 remote_path: /var/workspace/vmr-test/
                 remote_host: 161.35.217.162
                 remote_user: root
