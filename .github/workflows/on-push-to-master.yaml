@@ -22,6 +22,6 @@ jobs:
                 switches: -avzr --delete
                 path: client/
                 remote_path: /var/workspace/vmr-test/
-                remote_host: root
-                remote_user: 161.35.217.162
+                remote_host: 161.35.217.162
+                remote_user: root
                 remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
