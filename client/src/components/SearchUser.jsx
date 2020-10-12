@@ -64,7 +64,7 @@ function SearchUser() {
                         <input type="search"
                             name="search-user"
                             value={searchValue}
-                            placeholder="search for a user......"
+                            placeholder="search for a user..."
                             onChange={(e) => { setSearchValue(e.target.value) }}
                         />
                     </form>
