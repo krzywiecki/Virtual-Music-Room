@@ -19,7 +19,7 @@ jobs:
             - name: "Deploy to the internal server"
               uses: burnett01/rsync-deployments@4.0
               with:
-                switches: -avzr --delete
+                switches: -avzr
                 path: /
                 remote_path: /var/workspace/vmr/prod/
                 remote_host: 161.35.217.162
